@@ -1,0 +1,61 @@
+
+.bgimg{
+    background-image: url(lightBuildings.jpg);
+    background-size:cover ;
+    background-attachment:fixed ;
+    width: 100%;
+    height: 500px; 
+    
+}
+.headerset{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.headerset h1{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    
+    transition: 0.7s ease;
+
+}
+.headerset h1:hover{
+    color: rgb(164, 104, 104);
+    font-size: 34px;
+    
+    
+}
+.form-check{
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+
+.ml-auto{
+    margin-left: auto!important;
+}
+@media only screen and (max-width: 400px){
+    .headerset h1{
+        font-size: 20px;
+        font-family: cursive;
+        font-weight: bolder; 
+        transition: 0.7s ease;
+    
+    }
+    .headerset h1:hover{
+        color: gray;
+        font-size: 25px;
+        
+        
+    }
+}
+.card-group{
+    margin: 25px;
+}
+.card{
+    margin: 15px;
+    border: none;
+}
+.card-img-top:hover{
+   opacity: 0.3 ;
+}
